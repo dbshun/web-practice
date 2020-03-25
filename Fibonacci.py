@@ -11,7 +11,7 @@ def Fibonacci_of(num):
         return 1
     return Fibonacci_of(num-1)+Fibonacci_of(num-2)
 def main():
-    for i in range(1,21):
+    for i in range(1,201):
         result=Fibonacci_of(i)
         print(result)
 if __name__ == '__main__':
